@@ -1,0 +1,25 @@
+EnumDecl with name: Weekdays at line4:6 in file: ./test.c
+@ ./test.c
+4: enum Weekdays {
+5:     MONDAY,
+6:     TUESDAY,
+7:     WEDNESDAY,
+8:     THURSDAY,
+9:     FRIDAY,
+10:     SATURDAY,
+11:     SUNDAY
+12: };
+
+Variable Found
+@ ./test.c
+16:     enum Weekdays today;
+16:                   ^
+Used
+@ ./test.c
+19:     today = TUESDAY;
+19:     ^
+Used
+@ ./test.c
+22:     switch (today) {
+22:             ^
+
